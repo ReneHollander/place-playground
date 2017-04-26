@@ -10,7 +10,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-import static at.renehollander.placeplayground.Util.toRGB;
+import static at.renehollander.placeplayground.util.Util.toRGB;
 
 public class RenderHeatmap {
 

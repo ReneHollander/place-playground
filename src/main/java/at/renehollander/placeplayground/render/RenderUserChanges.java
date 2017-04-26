@@ -9,8 +9,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Arrays;
 
-import static at.renehollander.placeplayground.Util.toHash;
-import static at.renehollander.placeplayground.Util.writeImage;
+import static at.renehollander.placeplayground.util.Util.toHash;
+import static at.renehollander.placeplayground.util.Util.writeImage;
 
 public class RenderUserChanges {
 

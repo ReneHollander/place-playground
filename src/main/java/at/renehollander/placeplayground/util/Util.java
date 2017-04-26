@@ -1,4 +1,4 @@
-package at.renehollander.placeplayground;
+package at.renehollander.placeplayground.util;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -75,6 +75,18 @@ public class Util {
 
     public static int toRGB(int r, int g, int b) {
         return ((r & 0xFF) << 16) | ((g & 0xFF) << 8) | ((b & 0xFF) << 0);
+    }
+
+    public static float toFloatR(int rgb) {
+        return ((rgb >> 16) & 0xFF) / 255f;
+    }
+
+    public static float toFloatG(int rgb) {
+        return ((rgb >> 8) & 0xFF) / 255f;
+    }
+
+    public static float toFloatB(int rgb) {
+        return ((rgb >> 0) & 0xFF) / 255f;
     }
 
 }

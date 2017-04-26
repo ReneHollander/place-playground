@@ -8,7 +8,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-import static at.renehollander.placeplayground.Util.writeImage;
+import static at.renehollander.placeplayground.util.Util.writeImage;
 
 public class RenderFinalCanvas {
 
