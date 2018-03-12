@@ -12,6 +12,7 @@ import org.lwjgl.glfw.GLFWErrorCallback;
 import org.lwjgl.glfw.GLFWVidMode;
 import org.lwjgl.opengl.GL;
 import org.lwjgl.system.MemoryStack;
+import sun.misc.Unsafe;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -86,7 +87,6 @@ public class RenderChanges3D {
 
         glfwMakeContextCurrent(window);
         glfwSwapInterval(0);
-
         glfwShowWindow(window);
     }
 
